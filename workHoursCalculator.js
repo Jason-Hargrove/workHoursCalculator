@@ -39,12 +39,37 @@ function calculateFridayDeparture(workLog) {
 
 // Plug in your hours here.
 const workLog = {
-    Monday: { start: '08:00', end: '16:30' },
-    Tuesday: { start: '07:53', end: '16:34' },
-    Wednesday: { start: '08:16', end: '16:30' },
-    Thursday: { start: '07:47', end: '16:31' },
-    Friday: { start: '07:57' } // Provide your actual start time for Friday
+    Monday: { start: '06:28', end: '15:07' },
+    Tuesday: { start: '08:06', end: '16:38' },
+    Wednesday: { start: '07:46', end: '16:32' },
+    Thursday: { start: '07:51', end: '16:33' },
+    Friday: { start: '07:59' } // Provide your actual start time for Friday
 };
+
+// Mon02/10/25
+// MRCOOL IT
+// 07:43 AM04:31 PM
+// 8:48
+// 8:48
+// Tue02/11/25
+// MRCOOL IT
+// 07:57 AM04:33 PM
+// 8:36
+// 8:36
+// Wed02/12/25
+// MRCOOL IT
+// 07:37 AM04:30 PM
+// 8:53
+// 8:53
+// Thu02/13/25
+// MRCOOL IT
+// 07:41 AM04:00 PM
+// 8:19
+// 8:19
+// Fri02/14/25
+// MRCOOL IT
+// 05:18 AM--:--
+
 
 // Run this command in your termail after navigating to the file: node workHoursCalculator.js
 console.log(calculateFridayDeparture(workLog));
